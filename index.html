@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/279/original/miss-minutes-forward-facing.png?1710540110"
+        class="logo"
+      />
       <h1>World Clock</h1>
 
       <select>
@@ -19,19 +29,24 @@
       </select>
 
       <div class="city">
-        <h2>Los Angeles</h2>
-        <div class="date">15 March 2023</div>
-        <div class="time">4:56 PM</div>
+        <div>
+          <h2>Los Angeles</h2>
+          <div class="date">15 March 2023</div>
+        </div>
+
+        <div class="time">4:56 <small>PM</small></div>
       </div>
 
       <div class="city">
-        <h2>Sydney</h2>
-        <div class="date">15 March 2023</div>
-        <div class="time">4:56 PM</div>
+        <div>
+          <h2>Sydney</h2>
+          <div class="date">15 March 2023</div>
+        </div>
+        <div class="time">4:56 <small>PM</small></div>
       </div>
     </div>
     <footer>
-      Coded by Kara Tsonos and is open sourced on
+      Coded by <strong>Kara Tsonos</strong> and is open sourced on
       <a href="https://github.com/kazspace/" target="_blank">Github</a>
     </footer>
     <script src="src/app.js"></script>
