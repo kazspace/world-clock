@@ -6,7 +6,18 @@ body {
   );
   font-family: "Russo One", sans-serif;
 }
-
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.inner-link {
+  color: #2c5d63;
+}
+a:hover {
+  text-decoration: overline;
+  text-transform: uppercase;
+  color: #f5972d;
+}
 h1 {
   text-align: center;
 }
@@ -19,7 +30,21 @@ h2 {
 footer {
   text-align: center;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.7);
+  color: #ffd966;
+  opacity: 0.8;
+  padding: 0px;
+}
+
+footer strong {
+  color: #f5972d;
+}
+
+.image-footer {
+  display: flex;
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+  padding: 0; /* Optionally remove padding */
+  margin-top: -50px;
 }
 .date {
   opacity: 0.7;
