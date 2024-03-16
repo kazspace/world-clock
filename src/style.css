@@ -44,7 +44,7 @@ footer strong {
   justify-content: center; /* Horizontally center the image */
   align-items: center; /* Vertically center the image */
   padding: 0; /* Optionally remove padding */
-  margin-top: -50px;
+  margin-top: -70px;
 }
 
 .image-footer:hover {
