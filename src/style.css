@@ -107,4 +107,9 @@ select {
   position: absolute;
   left: -55px;
   top: -10px;
+  transition: transform 2s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
 }
