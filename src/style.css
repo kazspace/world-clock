@@ -46,6 +46,10 @@ footer strong {
   padding: 0; /* Optionally remove padding */
   margin-top: -50px;
 }
+
+.image-footer:hover {
+  filter: blur(4px);
+}
 .date {
   opacity: 0.7;
 }
