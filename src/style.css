@@ -40,10 +40,10 @@ footer strong {
 }
 
 .image-footer {
-  display: flex;
-  justify-content: center; /* Horizontally center the image */
-  align-items: center; /* Vertically center the image */
-  padding: 0; /* Optionally remove padding */
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
   margin-top: -70px;
 }
 
